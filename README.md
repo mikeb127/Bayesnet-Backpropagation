@@ -3,7 +3,7 @@ Basic R code which use backpropagation to learn parameters in a Bayesian Network
 
 This repo is a basic demonstration of using backpropagation to learn CPT values in a Bayesian Network. I have used PDF images of networks from Netica to visualize the before and after results, however it is not nescessary to have Netica to execute the code.
 
-We start with the Bayesian Network in the file ......
+We start with the Bayesian Network in the before file in the repo:
 
 ![image](https://user-images.githubusercontent.com/35029869/109891571-6d66c380-7cdd-11eb-8464-ac15d13d7fff.png)
 
@@ -15,7 +15,7 @@ And then execute:
 
 ![image](https://user-images.githubusercontent.com/35029869/109893396-b455b880-7cdf-11eb-9486-e3b546deea6a.png)
 
-Finally, I copied the new values from the CPTs into the Netica network, which now results in the probabilities below. Note that there are a few differences as Netica requires significant rounding when compared to the CPT's produced by the R code.
+Finally, I copied the new values from the CPTs into the Netica network, which now results in the probabilities below. Note that there are a few differences as Netica requires significant rounding when compared to the CPT's produced by the R code. A pdf copy of this network is also in the repo.
 
 ![image](https://user-images.githubusercontent.com/35029869/109893611-11ea0500-7ce0-11eb-8c4b-c423480f6a9d.png)
 
